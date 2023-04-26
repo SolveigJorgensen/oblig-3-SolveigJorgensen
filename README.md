@@ -1,11 +1,13 @@
-Oblig 2
+Oblig 3
 =======
-OsloMet brukernavn: 
+OsloMet brukernavn: s305161
 
-GitHub brukernavn: 
+GitHub brukernavn: SolveigJorgensen
 
 Github repo URL: 
 
-Fullt navn: 
+Fullt navn: Solveig Maria Jørgensen
 
 Kort beskrivelse av applikasjon (5-10 setninger):
+
+
