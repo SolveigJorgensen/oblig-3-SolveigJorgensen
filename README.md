@@ -17,6 +17,3 @@ Spring boot ble brukt som web-rammeverk, det er Java basert og har innebygd Apac
 Klassen BillettRepository inneholder metoder som kommuniserer med databasen.
 Filen schema.sql definerer databasen ved oppstart av server.
 
-
-Ved hjelp av Java og Springboot blir billettene og kundeinformasjonen lagret i et array som et objekt på tjener/klient. Billettene som bestilles listes for bruker i en tabell. Input-felter valideres og skriver ut feilmeldinger dersom de er tomme. Objektet vil da ikke bli opprettet eller lagres i arrayet. Ved sletting av billetter tømmes arrayet og vises ikke lenger for bruker. Applikasjonen på klient er stylet med Bootstrap.
-
