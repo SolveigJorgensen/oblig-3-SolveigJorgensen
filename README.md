@@ -17,3 +17,5 @@ Spring boot ble brukt som web-rammeverk, det er Java basert og har innebygd Apac
 Klassen BillettRepository inneholder metoder som kommuniserer med databasen.
 Filen schema.sql definerer databasen ved oppstart av server.
 
+Se youtubevideo av oppstart av server og billetter registrert i database: https://youtu.be/NMJ-zSKuu0I 
+
