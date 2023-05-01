@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+
+</head>
+<body>
+
+<div class = "container">
+
+    <h1>Bestilling av kinobiletter </h1>
+
+      <div class = "row">
+        <div class = "col-sm-3">
+          <label for="film">Velg film:</label>
+        </div>
+        <div class = "col-sm-3">
+          <select id="film" name="film">
+                <option value = "" disabled selected hidden>Velg film</option>
+                <option value= "Harry Potter">Harry Potter</option>
+                <option value = "Ringenes Herre">Rignenes Herre</option>
+                <option value = "Nemo">Nemo</option>
+          </select>
+        </div>
+      </div>
+
+      <div class = "row">
+        <div class = "col-sm-3">
+          <label for="antall">Antall </label>
+          </div>
+        <div class = "col-sm-3">
+          <input type= "number" id="antall" name="tall">
+          <label id="e1"></label>
+        </div>
+      </div>
+
+      <div class = "row">
+        <div class = "col-sm-3">
+            <label for="fnavn">Fornavn </label>
+        </div>
+        <div class = "col-sm-3">
+            <input type = "text" id="fnavn" name="fnavn">
+            <label id="e2"></label>
+        </div>
+      </div>
+
+      <div class = "row">
+        <div class = "col-sm-3">
+          <label for="enavn">Etternavn </label>
+        </div>
+        <div class = "col-sm-3">
+            <input type = "text" id="enavn" name="enavn">
+            <label id="e3"></label>
+          </div>
+      </div>
+
+      <div class = "row">
+        <div class = "col-sm-3">
+          <label for="telfnr">Telfonnr </label>
+        </div>
+        <div class = "col-sm-3">
+          <input type = "number" id="telfnr" name="telfnr">
+          <label id="e4"></label>
+        </div>
+      </div>
+
+      <div class = "row">
+        <div class = "col-sm-3">
+          <label for="epost">Epost</label>
+        </div>
+        <div class = "col-sm-3">
+          <input type = "email" id="epost" name="epost">
+          <label id="e5"></label>
+        </div>
+      </div>
+
+      <br>
+
+      <div class ="row">
+        <div class = "col-sm-3">
+          <button class="btn btn-primary" onclick="bestill()">Kjøp biletter</button>
+        </div>
+        </div>
+</div>
+
+<div class = "container">
+
+    <h2>Alle billetter</h2>
+
+        <table class="table" id="array"></table>
+
+    <div>
+      <button class="btn btn-danger" onclick="slettArr()">Slett alle billettene</button>
+    </div>
+</div>
+
+    <script src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</body>
+
+</html>
