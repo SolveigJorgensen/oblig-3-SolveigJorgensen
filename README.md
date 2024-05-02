@@ -8,7 +8,7 @@ Github repo URL: https://github.com/data1700-v23/oblig-3-SolveigJorgensen
 
 Fullt navn: Solveig Maria Jørgensen
 
-Kort beskrivelse av applikasjon (5-10 setninger):
+Kort beskrivelse av applikasjon:
 
 Prosjektet inneholder en applikasjon som registrer kjøp av kinobilletter.
 Bestillingene med kundeopplysninger lagres i en "in memory database" H2 som sletter alle data når serveren ikke kjører.
